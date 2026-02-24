@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the calculator centered on a warm earth-toned gradient background with header, footer, and attribution.",
+  "frontend/src/components/Calculator.tsx": "Calculator component that orchestrates the display and button grid layout using a standard 4-column calculator arrangement with number pad, operations, and function buttons.",
+  "frontend/src/components/CalculatorDisplay.tsx": "Display component that shows the current calculation value or error messages with large, readable typography in an inset panel.",
+  "frontend/src/components/CalculatorButton.tsx": "Reusable button component with four visual variants (number, operation, function, equals) styled with earth tones and appropriate visual hierarchy.",
+  "frontend/src/hooks/useCalculator.ts": "Custom hook managing calculator state including display value, operations, chaining calculations, decimal input, and error handling for division by zero.",
+  "frontend/src/utils/calculatorOperations.ts": "Utility functions for arithmetic operations (add, subtract, multiply, divide) with validation for division by zero.",
+  "frontend/src/lib/utils.ts": "Utility function for merging Tailwind CSS classes using clsx and tailwind-merge.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining warm earth tone palette (terracotta, sand, olive) for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with earth tone color tokens, custom font families, and design system settings for the calculator theme."
+}

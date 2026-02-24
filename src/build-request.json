@@ -1,0 +1,99 @@
+{
+  "kind": "build_request",
+  "title": "Build personal calculator with basic arithmetic operations",
+  "projectName": "Personal Calculator",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a calculator interface with number buttons (0-9), decimal point, and clear button",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Display shows number pad with digits 0-9",
+        "Decimal point button is present and functional",
+        "Clear button resets the calculator display to 0"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement basic arithmetic operation buttons for addition, subtraction, multiplication, and division",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Addition (+) button performs correct calculations",
+        "Subtraction (-) button performs correct calculations",
+        "Multiplication (×) button performs correct calculations",
+        "Division (÷) button performs correct calculations",
+        "Equals (=) button displays the result of the operation"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Add a display screen that shows the current number input and calculation results",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Display shows numbers as they are entered",
+        "Display updates to show calculation results when equals is pressed",
+        "Display handles multi-digit numbers correctly",
+        "Display shows appropriate feedback for invalid operations (e.g., division by zero)"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Implement calculator logic to handle sequential operations and maintain calculation state",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Calculator correctly chains multiple operations (e.g., 5 + 3 - 2 = 6)",
+        "Pressing an operation button after equals uses the previous result",
+        "Calculator handles decimal number calculations accurately",
+        "Invalid operations display appropriate error messages"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Design a cohesive visual theme with a modern, clean aesthetic using warm earth tones (terracotta, sand, olive) with clear typography and intuitive button layouts that emphasize usability",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color scheme consistently uses warm earth tone palette",
+        "Typography is clear and legible for numbers and operations",
+        "Button layout follows standard calculator conventions",
+        "Visual hierarchy clearly distinguishes number buttons from operation buttons"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Scientific calculator functions (trigonometry, logarithms, exponentials)",
+    "Calculator history or memory features",
+    "Keyboard input support",
+    "Multi-calculator tabs or sessions"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend canister entry point with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report documenting five implemented calculator features including UI components, arithmetic operations, display, logic, and visual theming with high confidence ratings.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of nine frontend files describing the calculator's React components, hooks, utilities, and styling configuration.",
+  "frontend/index.css": "Tailwind CSS base styles defining OKLCH color system variables for light and dark modes with warm earth tone palette (terracotta, sand, olive).",
+  "frontend/index.html": "HTML entry point with root div and module script reference for the React application titled 'Personal Calculator'.",
+  "frontend/src/App.tsx": "Root React component rendering the Calculator with gradient background, header, footer, and caffeine.ai attribution link.",
+  "frontend/src/components/Calculator.tsx": "Main calculator component orchestrating the display and 4-column button grid layout with number pad, operations, and function buttons using the useCalculator hook.",
+  "frontend/src/components/CalculatorButton.tsx": "Reusable button component with four visual variants (number, operation, function, equals) styled with earth tones and active scale animations.",
+  "frontend/src/components/CalculatorDisplay.tsx": "Display component showing current calculation value or error messages with large typography in an inset panel with earth tone styling.",
+  "frontend/src/hooks/useActor.ts": "React hook managing Internet Identity authentication and creating backend actor instances with automatic query invalidation on identity changes.",
+  "frontend/src/hooks/useCalculator.ts": "Custom hook managing calculator state including display value, operations, chaining calculations, decimal input, and division-by-zero error handling.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React hook and provider for Internet Identity authentication on ICP, managing login state, identity persistence, and AuthClient integration with configurable options.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a comprehensive design system including light/dark themes using OKLCH color space for backgrounds, foregrounds, borders, and UI components.",
+  "frontend/src/lib/utils.ts": "Utility function that combines clsx and tailwind-merge to merge Tailwind CSS class names intelligently.",
+  "frontend/src/main.tsx": "Application entry point that sets up React root with QueryClient, InternetIdentityProvider, and renders the main App component.",
+  "frontend/src/utils/calculatorOperations.ts": "Pure functions implementing basic arithmetic operations (add, subtract, multiply, divide) with division-by-zero handling returning null.",
+  "frontend/tailwind.config.js": "Tailwind configuration defining custom theme extensions including OKLCH color system, typography, animations, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project metadata tracking a personal calculator app with five implemented features (UI, operations, display, logic, design theme) and one pending feature request for basic arithmetic operations."
+}
